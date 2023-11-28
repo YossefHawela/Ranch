@@ -17,9 +17,29 @@ namespace Admin
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void AddNewWorkerButton_Click(object sender, EventArgs e)
         {
+            CreatW.CreatW creatWF = new CreatW.CreatW();
+            creatWF.ShowDialog();
+        }
 
+        private void EditWorkerbutton_Click(object sender, EventArgs e)
+        {
+            EditW.EditW editWF = new EditW.EditW();
+            editWF.ShowDialog();
+
+        }
+
+        private void AddUserButton_Click(object sender, EventArgs e)
+        {
+           CreatU.CreatU creatUF = new CreatU.CreatU();
+           creatUF.ShowDialog();
+        }
+
+        private void EditButton_Click(object sender, EventArgs e)
+        {
+            EditW.EditW EditW = new EditW.EditW();
+            EditW.ShowDialog();
         }
     }
 }

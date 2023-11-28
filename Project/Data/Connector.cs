@@ -15,9 +15,9 @@ namespace Project.Data
     public class Connector
     {
        
-        public Account Login(string username,string Password)
+        public Account Login(string email,string Password)
         {
-            Account account = GetAccount(username);
+            Account account = GetAccount(email);
             if (account != null)
             {
                 if (!CheckPassword(account.Password, Password)) return null;
@@ -29,17 +29,17 @@ namespace Project.Data
         /// <summary>
         /// Get Account from stored accounts
         /// </summary>
-        private Account GetAccount(string username)
+        private Account GetAccount(string email)
         {
             Account[] accounts = new Account[]
             {
-                new Account(){UserName="admin", Password="EFflJXdh8SrUs/R7xFLWHOXDxYPNih0FyJVHfnOcfwbEKwNU",accountType = Enums.AccountType.Admin },
-                new Account(){UserName="worker", Password="04A9BAGAz+rnuAPgXS+iCHV2IAfT3uLPp0JtOg1vKmxzVxr6" },
-                new Account(){UserName="manager", Password="lihez4f+88SLPkZNGxSH+CVPdBg1eCSe3+9yHpgvJ3M0YIH/",accountType = Enums.AccountType.Manager }
+                new Account(){Email="admin", Password="EFflJXdh8SrUs/R7xFLWHOXDxYPNih0FyJVHfnOcfwbEKwNU",accountType = Enums.AccountType.Admin },
+                new Account(){Email="worker", Password="04A9BAGAz+rnuAPgXS+iCHV2IAfT3uLPp0JtOg1vKmxzVxr6" },
+                new Account(){Email="manager", Password="lihez4f+88SLPkZNGxSH+CVPdBg1eCSe3+9yHpgvJ3M0YIH/",accountType = Enums.AccountType.Manager }
 
 
             };
-            Account account = accounts.Where(ac => ac.UserName == username).FirstOrDefault();
+            Account account = accounts.Where(ac => ac.Email == email).FirstOrDefault();
 
             return account;
         }

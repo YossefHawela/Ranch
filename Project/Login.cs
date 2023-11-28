@@ -26,7 +26,7 @@ namespace Login
         private void Loginbutton_Click(object sender, EventArgs e)
         {
             
-            Account acc = Program.conn.Login(UsernameTextBox.Text.Trim(),PasswordTextBox.Text);
+            Account acc = Program.conn.Login(EmailTextBox.Text.Trim(),PasswordTextBox.Text);
             
             if (acc != null)
             {
@@ -52,16 +52,15 @@ namespace Login
                 
                 Form1.Instance.Hide();
 
-                if (form != null)
+                //to close Application after closing the from
+                form.FormClosed += delegate
                 {
-                    //to close Application after closing the from
-                    form.FormClosed += delegate
-                    {
-                        Application.Exit();
-                    };
-                    form.Show();
-                    Close();
-                }
+                    Application.Exit();
+                };
+
+                form.Show();
+                Close();
+                
             }
             else
             {

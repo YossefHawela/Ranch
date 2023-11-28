@@ -30,7 +30,7 @@
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
-            this.UsernameTextBox = new System.Windows.Forms.TextBox();
+            this.EmailTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.Loginbutton = new System.Windows.Forms.Button();
@@ -41,7 +41,7 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Azure;
             this.groupBox1.Controls.Add(this.PasswordTextBox);
-            this.groupBox1.Controls.Add(this.UsernameTextBox);
+            this.groupBox1.Controls.Add(this.EmailTextBox);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.Loginbutton);
@@ -61,13 +61,13 @@
             this.PasswordTextBox.Size = new System.Drawing.Size(205, 24);
             this.PasswordTextBox.TabIndex = 9;
             // 
-            // UsernameTextBox
+            // EmailTextBox
             // 
-            this.UsernameTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UsernameTextBox.Location = new System.Drawing.Point(144, 86);
-            this.UsernameTextBox.Name = "UsernameTextBox";
-            this.UsernameTextBox.Size = new System.Drawing.Size(205, 24);
-            this.UsernameTextBox.TabIndex = 8;
+            this.EmailTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EmailTextBox.Location = new System.Drawing.Point(144, 86);
+            this.EmailTextBox.Name = "EmailTextBox";
+            this.EmailTextBox.Size = new System.Drawing.Size(205, 24);
+            this.EmailTextBox.TabIndex = 8;
             // 
             // label2
             // 
@@ -85,9 +85,9 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 86);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 18);
+            this.label1.Size = new System.Drawing.Size(50, 18);
             this.label1.TabIndex = 6;
-            this.label1.Text = "User Name";
+            this.label1.Text = "Email";
             // 
             // Loginbutton
             // 
@@ -126,7 +126,7 @@
 
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TextBox PasswordTextBox;
-        private System.Windows.Forms.TextBox UsernameTextBox;
+        private System.Windows.Forms.TextBox EmailTextBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button Loginbutton;
