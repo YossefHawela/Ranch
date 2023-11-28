@@ -17,8 +17,6 @@ namespace Project.Data
        
         public Account Login(string username,string Password)
         {
-            Clipboard.SetText(GetHashedPassword(username));
-
             Account account = GetAccount(username);
             if (account != null)
             {
