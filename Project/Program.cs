@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,10 @@ namespace Project
 {
     internal static class Program
     {
+
+        public static Connector conn = new Connector();
+
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
