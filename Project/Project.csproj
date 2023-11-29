@@ -12,6 +12,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -24,7 +25,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -79,10 +79,7 @@
     <Compile Include="CreatW.Designer.cs">
       <DependentUpon>CreatW.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatabaseDataSet.cs">
-      <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="DatabaseDataSet.Designer.cs">
+    <Compile Include="DataBase\DatabaseDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
@@ -173,15 +170,15 @@
     <EmbeddedResource Include="Worker.resx">
       <DependentUpon>Worker.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="DatabaseDataSet.xsc">
+    <None Include="DataBase\DatabaseDataSet.xsc">
       <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
     </None>
-    <None Include="DatabaseDataSet.xsd">
+    <None Include="DataBase\DatabaseDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>DatabaseDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="DatabaseDataSet.xss">
+    <None Include="DataBase\DatabaseDataSet.xss">
       <DependentUpon>DatabaseDataSet.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
@@ -198,15 +195,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Database.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database.mdf</DependentUpon>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
@@ -217,6 +205,15 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataBase\Database.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataBase\Database_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database.mdf</DependentUpon>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
