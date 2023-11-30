@@ -34,11 +34,11 @@ namespace Project.Data
         private void Load()
         {
 
-            if (File.Exists(Path.Combine("Data", "dbS.xml")))
-            {
-                dataSet.ReadXmlSchema(Path.Combine("Data", "dbS.xml"));
+            //if (File.Exists(Path.Combine("Data", "dbS.xml")))
+            //{
+            //    dataSet.ReadXmlSchema(Path.Combine("Data", "dbS.xml"));
 
-            }
+            //}
 
             if (File.Exists(Path.Combine("Data", "db.xml")))
             {
@@ -56,7 +56,7 @@ namespace Project.Data
                 Directory.CreateDirectory("Data");
             }
 
-            dataSet.WriteXmlSchema(Path.Combine("Data", "dbS.xml"));
+            //dataSet.WriteXmlSchema(Path.Combine("Data", "dbS.xml"));
 
             dataSet.WriteXml(Path.Combine("Data", "db.xml"));
 
@@ -64,7 +64,7 @@ namespace Project.Data
 
         public void AddInitialData()
         {
-            if (dataSet.Tables["User"].Rows.Count < 3)
+            if (dataSet.Tables["User"].Rows.Count < 2)
             {
                 Account account = new Account();
 
