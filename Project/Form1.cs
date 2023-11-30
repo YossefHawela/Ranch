@@ -1,4 +1,6 @@
 ﻿using Project.Data;
+using Project.Enums;
+using Project.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,6 +26,11 @@ namespace Project
         {
             Login.Login loginF = new Login.Login();
             loginF.ShowDialog();
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }

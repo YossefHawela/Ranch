@@ -8,7 +8,7 @@
   <Shapes>
     <Shape ID="DesignTable:Animal" ZOrder="4" X="22" Y="133" Height="181" Width="216" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="122" />
     <Shape ID="DesignTable:AnimalType" ZOrder="3" X="271" Y="429" Height="135" Width="252" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="76" />
-    <Shape ID="DesignTable:User" ZOrder="2" X="641" Y="232" Height="227" Width="197" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="168" />
+    <Shape ID="DesignTable:User" ZOrder="2" X="641" Y="232" Height="227" Width="197" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="26" OldDataTableHeight="0" SplitterPosition="168" />
   </Shapes>
   <Connectors>
     <Connector ID="DesignRelation:Animal_AnimalType" ZOrder="1" LineWidth="11">
