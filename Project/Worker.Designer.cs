@@ -29,116 +29,121 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TypetextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
+            this.radioButton2Female = new System.Windows.Forms.RadioButton();
+            this.radioButton1Male = new System.Windows.Forms.RadioButton();
+            this.Addbutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1Age = new System.Windows.Forms.NumericUpDown();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.buttonEdit = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.buttonEditAge = new System.Windows.Forms.Button();
+            this.numericUpDownAgeE = new System.Windows.Forms.NumericUpDown();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.buttonDelete = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
+            this.numericUpDown1PriceA = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1IDE = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1PriceE = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1IDD = new System.Windows.Forms.NumericUpDown();
+            this.numericUpDown1IDEA = new System.Windows.Forms.NumericUpDown();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1Age)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAgeE)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1PriceA)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1IDE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1PriceE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1IDD)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1IDEA)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Azure;
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.numericUpDown1PriceA);
+            this.groupBox1.Controls.Add(this.TypetextBox);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.radioButton2Female);
+            this.groupBox1.Controls.Add(this.radioButton1Male);
+            this.groupBox1.Controls.Add(this.Addbutton);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
+            this.groupBox1.Controls.Add(this.numericUpDown1Age);
             this.groupBox1.Location = new System.Drawing.Point(10, 7);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(336, 361);
             this.groupBox1.TabIndex = 25;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Add Animal";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // textBox2
+            // TypetextBox
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(84, 160);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(190, 24);
-            this.textBox2.TabIndex = 18;
+            this.TypetextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TypetextBox.Location = new System.Drawing.Point(83, 108);
+            this.TypetextBox.Name = "TypetextBox";
+            this.TypetextBox.Size = new System.Drawing.Size(190, 24);
+            this.TypetextBox.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(19, 163);
+            this.label3.Location = new System.Drawing.Point(18, 114);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 18);
             this.label3.TabIndex = 17;
             this.label3.Text = "Type";
             // 
-            // radioButton2
+            // radioButton2Female
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(226, 219);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(80, 20);
-            this.radioButton2.TabIndex = 16;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2Female.AutoSize = true;
+            this.radioButton2Female.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2Female.Location = new System.Drawing.Point(226, 234);
+            this.radioButton2Female.Name = "radioButton2Female";
+            this.radioButton2Female.Size = new System.Drawing.Size(80, 20);
+            this.radioButton2Female.TabIndex = 5;
+            this.radioButton2Female.Text = "Female";
+            this.radioButton2Female.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // radioButton1Male
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(22, 219);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(62, 20);
-            this.radioButton1.TabIndex = 15;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1Male.AutoSize = true;
+            this.radioButton1Male.Checked = true;
+            this.radioButton1Male.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1Male.Location = new System.Drawing.Point(22, 234);
+            this.radioButton1Male.Name = "radioButton1Male";
+            this.radioButton1Male.Size = new System.Drawing.Size(62, 20);
+            this.radioButton1Male.TabIndex = 4;
+            this.radioButton1Male.TabStop = true;
+            this.radioButton1Male.Text = "Male";
+            this.radioButton1Male.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // Addbutton
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
-            this.button1.FlatAppearance.BorderSize = 2;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(108, 278);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 49);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "ADD";
-            this.button1.UseVisualStyleBackColor = false;
+            this.Addbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Addbutton.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
+            this.Addbutton.FlatAppearance.BorderSize = 2;
+            this.Addbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Addbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Addbutton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Addbutton.Location = new System.Drawing.Point(108, 278);
+            this.Addbutton.Name = "Addbutton";
+            this.Addbutton.Size = new System.Drawing.Size(103, 49);
+            this.Addbutton.TabIndex = 6;
+            this.Addbutton.Text = "ADD";
+            this.Addbutton.UseVisualStyleBackColor = false;
+            this.Addbutton.Click += new System.EventHandler(this.Addbutton_Click);
             // 
             // label1
             // 
@@ -150,36 +155,28 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Age";
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(84, 97);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(190, 24);
-            this.textBox1.TabIndex = 12;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(19, 97);
+            this.label2.Location = new System.Drawing.Point(19, 171);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 18);
             this.label2.TabIndex = 11;
             this.label2.Text = "price";
             // 
-            // numericUpDown1
+            // numericUpDown1Age
             // 
-            this.numericUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown1.Increment = new decimal(new int[] {
+            this.numericUpDown1Age.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1Age.Increment = new decimal(new int[] {
             3,
             0,
             0,
             0});
-            this.numericUpDown1.Location = new System.Drawing.Point(84, 45);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(189, 24);
-            this.numericUpDown1.TabIndex = 10;
+            this.numericUpDown1Age.Location = new System.Drawing.Point(84, 45);
+            this.numericUpDown1Age.Name = "numericUpDown1Age";
+            this.numericUpDown1Age.Size = new System.Drawing.Size(189, 24);
+            this.numericUpDown1Age.TabIndex = 1;
             // 
             // button4
             // 
@@ -192,17 +189,18 @@
             this.button4.Location = new System.Drawing.Point(673, 584);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(103, 49);
-            this.button4.TabIndex = 28;
+            this.button4.TabIndex = 15;
             this.button4.Text = "Show";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Azure;
-            this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.textBox3);
+            this.groupBox2.Controls.Add(this.numericUpDown1PriceE);
+            this.groupBox2.Controls.Add(this.numericUpDown1IDE);
+            this.groupBox2.Controls.Add(this.buttonEdit);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.textBox4);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Location = new System.Drawing.Point(10, 391);
             this.groupBox2.Name = "groupBox2";
@@ -211,28 +209,21 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Edit Price";
             // 
-            // button5
+            // buttonEdit
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
-            this.button5.FlatAppearance.BorderSize = 2;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(94, 193);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(103, 49);
-            this.button5.TabIndex = 34;
-            this.button5.Text = "Edit";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(89, 99);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(190, 24);
-            this.textBox3.TabIndex = 33;
+            this.buttonEdit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonEdit.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
+            this.buttonEdit.FlatAppearance.BorderSize = 2;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEdit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEdit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonEdit.Location = new System.Drawing.Point(94, 193);
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.Size = new System.Drawing.Size(103, 49);
+            this.buttonEdit.TabIndex = 9;
+            this.buttonEdit.Text = "Edit";
+            this.buttonEdit.UseVisualStyleBackColor = false;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // label4
             // 
@@ -243,14 +234,6 @@
             this.label4.Size = new System.Drawing.Size(45, 18);
             this.label4.TabIndex = 32;
             this.label4.Text = "price";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(89, 36);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(190, 24);
-            this.textBox4.TabIndex = 31;
             // 
             // label5
             // 
@@ -265,10 +248,10 @@
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Azure;
-            this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.numericUpDown2);
+            this.groupBox3.Controls.Add(this.numericUpDown1IDEA);
+            this.groupBox3.Controls.Add(this.buttonEditAge);
+            this.groupBox3.Controls.Add(this.numericUpDownAgeE);
             this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.textBox6);
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Location = new System.Drawing.Point(547, 12);
             this.groupBox3.Name = "groupBox3";
@@ -277,33 +260,34 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Edit Age";
             // 
-            // button6
+            // buttonEditAge
             // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
-            this.button6.FlatAppearance.BorderSize = 2;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(126, 214);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(103, 49);
-            this.button6.TabIndex = 31;
-            this.button6.Text = "Edit";
-            this.button6.UseVisualStyleBackColor = false;
+            this.buttonEditAge.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonEditAge.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
+            this.buttonEditAge.FlatAppearance.BorderSize = 2;
+            this.buttonEditAge.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEditAge.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonEditAge.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonEditAge.Location = new System.Drawing.Point(126, 214);
+            this.buttonEditAge.Name = "buttonEditAge";
+            this.buttonEditAge.Size = new System.Drawing.Size(103, 49);
+            this.buttonEditAge.TabIndex = 12;
+            this.buttonEditAge.Text = "Edit";
+            this.buttonEditAge.UseVisualStyleBackColor = false;
+            this.buttonEditAge.Click += new System.EventHandler(this.buttonEditAge_Click);
             // 
-            // numericUpDown2
+            // numericUpDownAgeE
             // 
-            this.numericUpDown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown2.Increment = new decimal(new int[] {
+            this.numericUpDownAgeE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDownAgeE.Increment = new decimal(new int[] {
             3,
             0,
             0,
             0});
-            this.numericUpDown2.Location = new System.Drawing.Point(99, 110);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(189, 24);
-            this.numericUpDown2.TabIndex = 30;
+            this.numericUpDownAgeE.Location = new System.Drawing.Point(99, 110);
+            this.numericUpDownAgeE.Name = "numericUpDownAgeE";
+            this.numericUpDownAgeE.Size = new System.Drawing.Size(189, 24);
+            this.numericUpDownAgeE.TabIndex = 11;
             // 
             // label6
             // 
@@ -314,14 +298,6 @@
             this.label6.Size = new System.Drawing.Size(36, 18);
             this.label6.TabIndex = 29;
             this.label6.Text = "Age";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(99, 46);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(190, 24);
-            this.textBox6.TabIndex = 28;
             // 
             // label7
             // 
@@ -336,8 +312,8 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Azure;
-            this.groupBox4.Controls.Add(this.button3);
-            this.groupBox4.Controls.Add(this.textBox5);
+            this.groupBox4.Controls.Add(this.numericUpDown1IDD);
+            this.groupBox4.Controls.Add(this.buttonDelete);
             this.groupBox4.Controls.Add(this.label8);
             this.groupBox4.Location = new System.Drawing.Point(561, 334);
             this.groupBox4.Name = "groupBox4";
@@ -346,28 +322,21 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Delete Animal";
             // 
-            // button3
+            // buttonDelete
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(114, 121);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 49);
-            this.button3.TabIndex = 30;
-            this.button3.Text = "Delete";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(92, 42);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(190, 24);
-            this.textBox5.TabIndex = 29;
+            this.buttonDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonDelete.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
+            this.buttonDelete.FlatAppearance.BorderSize = 2;
+            this.buttonDelete.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonDelete.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonDelete.Location = new System.Drawing.Point(114, 121);
+            this.buttonDelete.Name = "buttonDelete";
+            this.buttonDelete.Size = new System.Drawing.Size(103, 49);
+            this.buttonDelete.TabIndex = 14;
+            this.buttonDelete.Text = "Delete";
+            this.buttonDelete.UseVisualStyleBackColor = false;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // label8
             // 
@@ -378,6 +347,95 @@
             this.label8.Size = new System.Drawing.Size(24, 18);
             this.label8.TabIndex = 28;
             this.label8.Text = "ID";
+            // 
+            // numericUpDown1PriceA
+            // 
+            this.numericUpDown1PriceA.DecimalPlaces = 2;
+            this.numericUpDown1PriceA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1PriceA.Increment = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numericUpDown1PriceA.Location = new System.Drawing.Point(83, 169);
+            this.numericUpDown1PriceA.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDown1PriceA.Name = "numericUpDown1PriceA";
+            this.numericUpDown1PriceA.Size = new System.Drawing.Size(196, 24);
+            this.numericUpDown1PriceA.TabIndex = 3;
+            // 
+            // numericUpDown1IDE
+            // 
+            this.numericUpDown1IDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1IDE.Increment = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numericUpDown1IDE.Location = new System.Drawing.Point(84, 34);
+            this.numericUpDown1IDE.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDown1IDE.Name = "numericUpDown1IDE";
+            this.numericUpDown1IDE.Size = new System.Drawing.Size(196, 24);
+            this.numericUpDown1IDE.TabIndex = 7;
+            this.numericUpDown1IDE.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1IDE.ValueChanged += new System.EventHandler(this.numericUpDown1IDE_ValueChanged);
+            // 
+            // numericUpDown1PriceE
+            // 
+            this.numericUpDown1PriceE.DecimalPlaces = 2;
+            this.numericUpDown1PriceE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1PriceE.Increment = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numericUpDown1PriceE.Location = new System.Drawing.Point(84, 100);
+            this.numericUpDown1PriceE.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDown1PriceE.Name = "numericUpDown1PriceE";
+            this.numericUpDown1PriceE.Size = new System.Drawing.Size(196, 24);
+            this.numericUpDown1PriceE.TabIndex = 8;
+            // 
+            // numericUpDown1IDD
+            // 
+            this.numericUpDown1IDD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1IDD.Increment = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numericUpDown1IDD.Location = new System.Drawing.Point(73, 43);
+            this.numericUpDown1IDD.Name = "numericUpDown1IDD";
+            this.numericUpDown1IDD.Size = new System.Drawing.Size(189, 24);
+            this.numericUpDown1IDD.TabIndex = 16;
+            // 
+            // numericUpDown1IDEA
+            // 
+            this.numericUpDown1IDEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numericUpDown1IDEA.Increment = new decimal(new int[] {
+            3,
+            0,
+            0,
+            0});
+            this.numericUpDown1IDEA.Location = new System.Drawing.Point(99, 42);
+            this.numericUpDown1IDEA.Name = "numericUpDown1IDEA";
+            this.numericUpDown1IDEA.Size = new System.Drawing.Size(189, 24);
+            this.numericUpDown1IDEA.TabIndex = 10;
+            this.numericUpDown1IDEA.ValueChanged += new System.EventHandler(this.numericUpDown1IDEA_ValueChanged);
             // 
             // Worker
             // 
@@ -393,49 +451,54 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Worker";
             this.Text = "Worker";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.Worker_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1Age)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownAgeE)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1PriceA)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1IDE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1PriceE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1IDD)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1IDEA)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton radioButton2Female;
+        private System.Windows.Forms.RadioButton radioButton1Male;
+        private System.Windows.Forms.Button Addbutton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown numericUpDown1Age;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.Button buttonEditAge;
+        private System.Windows.Forms.NumericUpDown numericUpDownAgeE;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox TypetextBox;
+        private System.Windows.Forms.NumericUpDown numericUpDown1PriceA;
+        private System.Windows.Forms.NumericUpDown numericUpDown1IDE;
+        private System.Windows.Forms.NumericUpDown numericUpDown1PriceE;
+        private System.Windows.Forms.NumericUpDown numericUpDown1IDEA;
+        private System.Windows.Forms.NumericUpDown numericUpDown1IDD;
     }
 }
 
