@@ -34,12 +34,6 @@ namespace Project.Data
         private void Load()
         {
 
-            //if (File.Exists(Path.Combine("Data", "dbS.xml")))
-            //{
-            //    dataSet.ReadXmlSchema(Path.Combine("Data", "dbS.xml"));
-
-            //}
-
             if (File.Exists(Path.Combine("Data", "db.xml")))
             {
                 dataSet.ReadXml(Path.Combine("Data", "db.xml"));
@@ -56,7 +50,6 @@ namespace Project.Data
                 Directory.CreateDirectory("Data");
             }
 
-            //dataSet.WriteXmlSchema(Path.Combine("Data", "dbS.xml"));
 
             dataSet.WriteXml(Path.Combine("Data", "db.xml"));
 
