@@ -26,8 +26,9 @@ namespace Login
         private void Loginbutton_Click(object sender, EventArgs e)
         {
             
-            Account acc = Program.conn.Login(EmailTextBox.Text.Trim(),PasswordTextBox.Text);
-            
+            //Account acc = Program.conn.Login(EmailTextBox.Text.Trim(),PasswordTextBox.Text);
+            Account acc = Program.connK.Login(EmailTextBox.Text.Trim(), PasswordTextBox.Text);
+
             if (acc != null)
             {
                 Form form= new Worker.Worker();

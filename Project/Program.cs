@@ -11,6 +11,7 @@ namespace Project
     {
 
         public static Connector conn = new Connector();
+        public static Connection connK = new Connection();
 
 
         /// <summary>

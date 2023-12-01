@@ -1,18 +1,15 @@
 ﻿namespace Project.DataBase
 {
-}
-
-namespace Project.DataBase
-{
 
 
-    public partial class DatabaseDataSet
+    partial class DatabaseDataSet
     {
     }
 }
-namespace Project.DataBase {
+
+namespace Project.DataBase.DatabaseDataSetTableAdapters {
     
     
-    public partial class DatabaseDataSet {
+    public partial class UserTableAdapter {
     }
 }
